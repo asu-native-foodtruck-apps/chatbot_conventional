@@ -25,7 +25,7 @@ const ChatbotFlow = () => {
         case 1:
           return (
             <View>
-              <Text>Welcome to the San Carlos Apache Food Truck App! How can I assist you today?</Text>
+              <Text>Welcome to the Apache Food Truck App! How can I assist you today?</Text>
               <Button title="Order a meal" onPress={() => handleStep(2)} />
               <Button title="Get Nutrition Info" onPress={() => handleStep(6)} />
               <Button title="Share a Recipe" onPress={() => handleStep(7)} />
