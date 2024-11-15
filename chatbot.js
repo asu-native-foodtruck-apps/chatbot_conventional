@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { View, Text, Button, TextInput, ScrollView, StyleSheet } from 'react-native';
-<ChatbotFlow />
+
+
+///<ChatbotFlow />
 
 const ChatbotFlow = () => {
   const [step, setStep] = useState(1);
